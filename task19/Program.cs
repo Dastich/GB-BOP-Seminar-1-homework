@@ -19,16 +19,10 @@ int number5 = number % 10;
 int number4 = number / 10 % 10;
 int number2 = number / 1000 % 10;
 int number1 = number / 10000;
-if (number1 == number5)
+if (number1 == number5&&number2 == number4)
 {
-    if (number2 == number4)
-    {
-        Console.WriteLine($"Число {number}  является палиндромом");
-    }
-    else
-    {
-        Console.WriteLine($"Число {number} не является палиндромом");
-    }
+
+        Console.WriteLine($"Число {number}  является палиндромом");   
 }
 else
 {
