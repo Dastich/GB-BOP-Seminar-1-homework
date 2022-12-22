@@ -62,3 +62,4 @@ PrintMatrix(matrix);
 int rowspos=ReadInt("Введите номер строки: ");
 int columnspos=ReadInt("Введите номер столбца: ");
 FindNumberOnMatrix(matrix,rowspos,columnspos);
+
